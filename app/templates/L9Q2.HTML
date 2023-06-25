@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<HTMl>
+<HEAD>
+
+</HEAD>
+<body>
+
+<SCRIPT>
+function light(a) {
+
+    var pic;
+
+if (a==1) {
+
+    pic = "blue.jpg"
+}
+
+else {
+
+    pic ="grey.jpg"
+}
+
+document.getElementById('myImage').src=pic;
+
+}
+
+</SCRIPT>
+<center>
+    <br>
+    <img id="myImage" src="blue.jpg" width="100">
+
+
+<br><br>
+<button typpe="button" onclick="light(1)">Blue Shirt</button>
+<button typpe="button" onclick="light(0)">Grey Shirt</button>
+</center>
+</body>
+</HTMl>
